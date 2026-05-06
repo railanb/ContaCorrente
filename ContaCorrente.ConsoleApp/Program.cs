@@ -9,9 +9,14 @@ using ContaCorrente.ConsoleApp.Entidades;
 Conta contaRailan = new Conta();
 contaRailan.id = 1;
 contaRailan.titular = "Railan";
-contaRailan.saldo = 1;
-contaRailan.limiteDebito = 1;
+contaRailan.saldo = 1200;
+contaRailan.limiteDebito = 800;
 
+Conta contaTeste = new Conta();
+contaTeste.id = 1;
+contaTeste.titular = "Railan";
+contaTeste.saldo = 4000;
+contaTeste.limiteDebito = 1000;
 
 while (true)
 {
