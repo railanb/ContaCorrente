@@ -29,7 +29,8 @@ while (true)
     Console.ForegroundColor = ConsoleColor.Blue;
     Console.WriteLine("║ 1 - SAQUE                  ║");
     Console.WriteLine("║ 2 - DEPÓSITO               ║");
-    Console.WriteLine("║ 3 - CONSULTA DE SALDO      ║");
+    Console.WriteLine("║ 3 - TRANSFERIR             ║");
+    Console.WriteLine("║ 4 - CONSULTA DE SALDO      ║");
     Console.WriteLine("║ S - SAIR                   ║");
     Console.WriteLine("╚════════════════════════════╝");
     Console.Write("> ");
@@ -56,7 +57,16 @@ while (true)
         contaRailan.Deposito(valorDeposito);
 
     }
-    else if (opcaoMenu == "3")
+    else if (opcaoMenu =="3")
+    {
+
+        Console.Write("> Digite o valor que deseja tranferir: R$ ");
+        decimal valorTransferencia = Convert.ToDecimal(Console.ReadLine());
+
+        contaRailan.Transferir(valorTransferencia, contaTeste);
+
+    }
+    else if (opcaoMenu == "4")
     {
         contaRailan.VisualizarSaldo();
     }

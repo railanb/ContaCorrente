@@ -37,6 +37,24 @@ public class Conta
         Console.ReadLine();
     }
 
+    public void Transferir(decimal valorTransferencia, Conta contaDestino)
+    {
+        
+        decimal limiteSaque = saldo + limiteDebito;        
+
+        if (valorTransferencia > limiteSaque)
+        {
+            Console.WriteLine("> Não é possível concluir sua tranferencia! Valor acima do saldo.");
+            Console.ReadLine();
+            return;
+        } 
+
+        this.Sacar(valorTransferencia);
+
+        contaDestino.Deposito(valorTransferencia);
+
+    }
+
     public void VisualizarSaldo()
     {
         Console.WriteLine($"> O saldo da conta é: R$ {saldo}");

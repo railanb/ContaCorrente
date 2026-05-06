@@ -13,3 +13,18 @@ D:\ACADEMIA_PROGRAMADOR\POO\contaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net
 D:\ACADEMIA_PROGRAMADOR\POO\contaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.pdb
 D:\ACADEMIA_PROGRAMADOR\POO\contaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.genruntimeconfig.cache
 D:\ACADEMIA_PROGRAMADOR\POO\contaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ref\ContaCorrente.ConsoleApp.dll
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\bin\Debug\net10.0\ContaCorrente.ConsoleApp.exe
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\bin\Debug\net10.0\ContaCorrente.ConsoleApp.deps.json
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\bin\Debug\net10.0\ContaCorrente.ConsoleApp.runtimeconfig.json
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\bin\Debug\net10.0\ContaCorrente.ConsoleApp.dll
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\bin\Debug\net10.0\ContaCorrente.ConsoleApp.pdb
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.AssemblyInfoInputs.cache
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.AssemblyInfo.cs
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.sourcelink.json
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.dll
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\refint\ContaCorrente.ConsoleApp.dll
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.pdb
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ContaCorrente.ConsoleApp.genruntimeconfig.cache
+D:\RAILAN BRANDAO\ACAD PROG\ContaCorrente\ContaCorrente.ConsoleApp\obj\Debug\net10.0\ref\ContaCorrente.ConsoleApp.dll
