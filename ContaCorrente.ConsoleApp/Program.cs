@@ -6,11 +6,6 @@ de identificação único, um saldo disponível e um limite de débito estabelec
 // conta
 using ContaCorrente.ConsoleApp.Entidades;
 
-int id = 1;
-decimal saldo = 1200;
-decimal limiteDebito = 800;
-
-
 
 while (true)
 {
@@ -35,7 +30,7 @@ while (true)
 
     if (opcaoMenu == "1")
     {
-        Console.Write("Digite o valor que desaja sacar? R$ ");
+        Console.Write(" >Digite o valor que desaja sacar? R$ ");
         decimal valorSaque = Convert.ToDecimal(Console.ReadLine());
 
         Conta.Sacar(valorSaque);
@@ -44,18 +39,14 @@ while (true)
     else if (opcaoMenu == "2")
     {
 
-        Console.Write("Digite o valor do deposito: R$ ");
+        Console.Write("> Digite o valor do deposito: R$ ");
         decimal valorDeposito = Convert.ToDecimal(Console.ReadLine());
 
-        saldo += valorDeposito;
-
-        Console.WriteLine($"O deposito de R$ {valorDeposito}, foi realizado com sucesso!");
-        Console.ReadLine();
+        Conta.Deposito(valorDeposito);
 
     }
     else if (opcaoMenu == "3")
     {
-        Console.WriteLine($"O saldo da conta é: R$ {saldo}");
-        Console.ReadLine();
+        Conta.VisualizarSaldo();
     }
 }
