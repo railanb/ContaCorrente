@@ -3,15 +3,16 @@ using System;
 namespace ContaCorrente.ConsoleApp.Entidades;
 
 //Centralização de atributos e metodos em comum
-public static class Conta
+public class Conta
 {
 
-    public static int id = 1;
-    public static decimal saldo = 1200;
-    public static decimal limiteDebito = 800;
+    public int id;
+    public string titular;
+    public decimal saldo;
+    public decimal limiteDebito;
 
 
-    public static void Sacar(decimal valorSaque)
+    public void Sacar(decimal valorSaque)
     {
         decimal limiteSaque = saldo + limiteDebito;        
         
@@ -28,7 +29,7 @@ public static class Conta
         Console.ReadLine();
     }
 
-    public static void Deposito(decimal valorDeposito)
+    public void Deposito(decimal valorDeposito)
     {
         saldo += valorDeposito;
 
@@ -36,7 +37,7 @@ public static class Conta
         Console.ReadLine();
     }
 
-    public static void VisualizarSaldo()
+    public void VisualizarSaldo()
     {
         Console.WriteLine($"> O saldo da conta é: R$ {saldo}");
         Console.ReadLine();

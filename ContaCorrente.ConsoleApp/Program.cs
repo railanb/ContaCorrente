@@ -6,6 +6,12 @@ de identificação único, um saldo disponível e um limite de débito estabelec
 // conta
 using ContaCorrente.ConsoleApp.Entidades;
 
+Conta contaRailan = new Conta();
+contaRailan.id = 1;
+contaRailan.titular = "Railan";
+contaRailan.saldo = 1;
+contaRailan.limiteDebito = 1;
+
 
 while (true)
 {
@@ -33,7 +39,7 @@ while (true)
         Console.Write(" >Digite o valor que desaja sacar? R$ ");
         decimal valorSaque = Convert.ToDecimal(Console.ReadLine());
 
-        Conta.Sacar(valorSaque);
+        contaRailan.Sacar(valorSaque);
 
     }
     else if (opcaoMenu == "2")
@@ -42,11 +48,11 @@ while (true)
         Console.Write("> Digite o valor do deposito: R$ ");
         decimal valorDeposito = Convert.ToDecimal(Console.ReadLine());
 
-        Conta.Deposito(valorDeposito);
+        contaRailan.Deposito(valorDeposito);
 
     }
     else if (opcaoMenu == "3")
     {
-        Conta.VisualizarSaldo();
+        contaRailan.VisualizarSaldo();
     }
 }
